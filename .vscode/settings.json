@@ -1,0 +1,10 @@
+{
+    "C_Cpp.default.includePath": [
+        "C:\\Users\\pc\\Documents\\github\\c-0101\\c++\\SFML-2.5.1\\include"
+    ],
+    "C_Cpp.default.compilerPath": "",
+    "files.associations": {
+        "*.tcc": "cpp",
+        "fstream": "cpp"
+    }
+}

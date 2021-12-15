@@ -1,0 +1,77 @@
+NOTES:
+
+
+TASKS:
+	Understanding STL.
+	Understanding iostream, fstream, basic_strings, vectors, strings, maps.....
+	making a program that reads and write data to a csv file.
+
+Libraries I want to learn:
+	Libs i wanna learn:
+	Boost
+	QT
+	GSL
+	Active Template Library
+	Asio
+	Eigen
+	Dlib
+	OpenCV
+	Poco C++
+	JUCE
+
+
+Vectors in c++:
+	 vector<int> vec;
+	 vec.capacity()
+	 vec.begin()
+	 vec.end()
+	 vec.rbegin()
+	 vec.rend() 
+	 vec.size()
+	 vec.max_size()
+	 vec.resize()
+	 vec.empty()
+	 vec.assign()
+	 vec.push_back() 
+	 vec.pop_back()
+	 vec.insert()
+	 vec.erase() 
+	 vec.swap()
+	 vec.clear() 
+	 vec.at(g)
+	 vec.front()
+	 vec.back()
+	 vec.data()
+
+Strins in c++:
+	string S
+	sizeof(S)
+	S.length()
+    S.length()
+	(S == S)
+	(S != S)
+	S.find(key, n) 
+	S.substr(start, length)
+	S.replace(start, n, str2)
+	S.insert(start, str2)
+
+
+files in c++:
+
+functions and workspaces:
+	MODES:
+	std::ios_base::app -> append mode	
+	std::ios_base::binary -> binary mode
+	std::ios_base::in -> read mode
+	std::ios_base::out -> write mode
+	std::ios_base::trunc -> ...
+	std::ios_base::ate -> ???
+
+	steps:
+		#include <fstream> // essencial
+		int main() {
+		string filename; //specifying the file's name.
+		fstream File; // file object.
+		File.open(NAME, MODE(s)); // open the file using the name and a MODE
+		File << contentToBewritten << endl; // to write to the file.
+		
