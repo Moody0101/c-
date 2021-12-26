@@ -2,9 +2,6 @@
 #include <vector>
 #include <string>
 #include <fstream>
-
-
-
 using namespace std;
 
 // class linear {
@@ -57,7 +54,6 @@ int writetofile(vector<string> content, string fileName, char MODE_) {
 			File.open(fileName, ios_base::in);
 	}
 	if(File.is_open()) {
-		
 		return EXIT_SUCCESS;
 	}
 	return 1;
